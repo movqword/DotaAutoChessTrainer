@@ -1,0 +1,496 @@
+[
+	{
+		"id": 0,
+		"name": "Axe",
+		"icon": "axe.png",
+		"role": [ 0 ],
+		"class": [ 0 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 1,
+		"name": "Enchantress",
+		"icon": "enchantress.png",
+		"role": [ 1 ],
+		"class": [ 1 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 2,
+		"name": "Ogre Magi",
+		"icon": "ogre_magi.png",
+		"role": [ 2 ],
+		"class": [ 2 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 3,
+		"name": "Tusk",
+		"icon": "tusk.png",
+		"role": [ 1 ],
+		"class": [ 0 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 4,
+		"name": "Drow Ranger",
+		"icon": "drow_ranger.png",
+		"role": [ 3 ],
+		"class": [ 3 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 5,
+		"name": "Bounty Hunter",
+		"icon": "bounty_hunter.png",
+		"role": [ 4 ],
+		"class": [ 4 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 6,
+		"name": "Clockwerk",
+		"icon": "clockwerk.png",
+		"role": [ 4 ],
+		"class": [ 5 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 7,
+		"name": "Shadow Shaman",
+		"icon": "shadow_shaman.png",
+		"role": [ 5 ],
+		"class": [ 6 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 8,
+		"name": "Batrider",
+		"icon": "batrider.png",
+		"role": [ 5 ],
+		"class": [ 7 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 9,
+		"name": "Tinker",
+		"icon": "tinker.png",
+		"role": [ 4 ],
+		"class": [ 5 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 10,
+		"name": "Anti-Mage",
+		"icon": "antimage.png",
+		"role": [ 6 ],
+		"class": [ 8 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 52,
+		"name": "Tiny",
+		"icon": "tiny.png",
+		"role": [ 12 ],
+		"class": [ 0 ],
+		"cost": 1
+	},
+	
+	{
+		"id": 11,
+		"name": "Crystal Maiden",
+		"icon": "crystal_maiden.png",
+		"role": [ 7 ],
+		"class": [ 2 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 12,
+		"name": "Beast Master",
+		"icon": "beastmaster.png",
+		"role": [ 0 ],
+		"class": [ 3 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 13,
+		"name": "Juggernaut",
+		"icon": "juggernaut.png",
+		"role": [ 0 ],
+		"class": [ 0 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 14,
+		"name": "Timbersaw",
+		"icon": "timbersaw.png",
+		"role": [ 4 ],
+		"class": [ 5 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 15,
+		"name": "Queen of Pain",
+		"icon": "queenofpain.png",
+		"role": [ 8 ],
+		"class": [ 4 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 16,
+		"name": "Puck",
+		"icon": "puck.png",
+		"role": [ 6, 10 ],
+		"class": [ 2 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 17,
+		"name": "Witch Doctor",
+		"icon": "witch_doctor.png",
+		"role": [ 5 ],
+		"class": [ 9 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 18,
+		"name": "Slardar",
+		"icon": "slardar.png",
+		"role": [ 9 ],
+		"class": [ 0 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 19,
+		"name": "Chaos Knight",
+		"icon": "chaos_knight.png",
+		"role": [ 8 ],
+		"class": [ 7 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 20,
+		"name": "Treant Protector",
+		"icon": "treant.png",
+		"role": [ 6 ],
+		"class": [ 1 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 21,
+		"name": "Luna",
+		"icon": "luna.png",
+		"role": [ 6 ],
+		"class": [ 7 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 22,
+		"name": "Nature's Prophet",
+		"icon": "furion.png",
+		"role": [ 6 ],
+		"class": [ 1 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 53,
+		"name": "Morphling",
+		"icon": "morphling.png",
+		"role": [ 12 ],
+		"class": [ 4 ],
+		"cost": 2
+	},
+	
+	{
+		"id": 23,
+		"name": "Lycan",
+		"icon": "lycan.png",
+		"role": [ 7, 1 ],
+		"class": [ 0 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 24,
+		"name": "Venomancer",
+		"icon": "venomancer.png",
+		"role": [ 1 ],
+		"class": [ 9 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 25,
+		"name": "Omniknight",
+		"icon": "omniknight.png",
+		"role": [ 7 ],
+		"class": [ 7 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 26,
+		"name": "Razor",
+		"icon": "razor.png",
+		"role": [ 12 ],
+		"class": [ 2 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 27,
+		"name": "Windranger",
+		"icon": "windrunner.png",
+		"role": [ 6 ],
+		"class": [ 3 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 28,
+		"name": "Phantom Assassin",
+		"icon": "phantom_assassin.png",
+		"role": [ 6 ],
+		"class": [ 4 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 29,
+		"name": "Abaddon",
+		"icon": "abaddon.png",
+		"role": [ 3 ],
+		"class": [ 7 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 30,
+		"name": "Sand King",
+		"icon": "sand_king.png",
+		"role": [ 1 ],
+		"class": [ 4 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 31,
+		"name": "Slark",
+		"icon": "slark.png",
+		"role": [ 9 ],
+		"class": [ 4 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 32,
+		"name": "Sniper",
+		"icon": "sniper.png",
+		"role": [ 11 ],
+		"class": [ 3 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 33,
+		"name": "Viper",
+		"icon": "viper.png",
+		"role": [ 10 ],
+		"class": [ 4 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 34,
+		"name": "Shadow Fiend",
+		"icon": "nevermore.png",
+		"role": [ 8 ],
+		"class": [ 9 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 35,
+		"name": "Lina",
+		"icon": "lina.png",
+		"role": [ 7 ],
+		"class": [ 2 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 54,
+		"name": "Terrorblade",
+		"icon": "terrorblade.png",
+		"role": [ 8 ],
+		"class": [ 8 ],
+		"cost": 3
+	},
+	
+	{
+		"id": 36,
+		"name": "Doom",
+		"icon": "doom.png",
+		"role": [ 8 ],
+		"class": [ 0 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 37,
+		"name": "Kunkka",
+		"icon": "kunkka.png",
+		"role": [ 7 ],
+		"class": [ 0 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 38,
+		"name": "Troll",
+		"icon": "troll_warlord.png",
+		"role": [ 5 ],
+		"class": [ 0 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 39,
+		"name": "Keeper of the Light",
+		"icon": "keeper_of_the_light.png",
+		"role": [ 7 ],
+		"class": [ 2 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 40,
+		"name": "Necrophos",
+		"icon": "necrolyte.png",
+		"role": [ 3 ],
+		"class": [ 9 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 41,
+		"name": "Templar Assassin",
+		"icon": "templar_assassin.png",
+		"role": [ 6 ],
+		"class": [ 4 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 42,
+		"name": "Alchemist",
+		"icon": "alchemist.png",
+		"role": [ 4 ],
+		"class": [ 9 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 43,
+		"name": "Disruptor",
+		"icon": "disruptor.png",
+		"role": [ 0 ],
+		"class": [ 6 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 44,
+		"name": "Medusa",
+		"icon": "medusa.png",
+		"role": [ 9 ],
+		"class": [ 3 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 45,
+		"name": "Dragon Knight",
+		"icon": "dragon_knight.png",
+		"role": [ 7, 10 ],
+		"class": [ 7 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 46,
+		"name": "Lone Druid",
+		"icon": "lone_druid.png",
+		"role": [ 1 ],
+		"class": [ 1 ],
+		"cost": 4
+	},
+	
+	{
+		"id": 47,
+		"name": "Gyrocopter",
+		"icon": "gyrocopter.png",
+		"role": [ 11 ],
+		"class": [ 5 ],
+		"cost": 5
+	},
+	
+	{
+		"id": 48,
+		"name": "Lich",
+		"icon": "lich.png",
+		"role": [ 3 ],
+		"class": [ 2 ],
+		"cost": 5
+	},
+	
+	{
+		"id": 49,
+		"name": "Tidehunter",
+		"icon": "tidehunter.png",
+		"role": [ 9 ],
+		"class": [ 3 ],
+		"cost": 5
+	},
+	
+	{
+		"id": 50,
+		"name": "Enigma",
+		"icon": "enigma.png",
+		"role": [ 12 ],
+		"class": [ 9 ],
+		"cost": 5
+	},
+	
+	{
+		"id": 51,
+		"name": "Techies",
+		"icon": "techies.png",
+		"role": [ 4 ],
+		"class": [ 5 ],
+		"cost": 5
+	}
+]

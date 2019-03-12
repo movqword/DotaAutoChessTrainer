@@ -1,0 +1,588 @@
+[
+	{
+		"id": 0,
+		"name": "Orc",
+		"icon": "beastmaster_primal_roar.png",
+		"effect": 
+		{
+			"name": "Huge Body",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Max HP +",
+							"value": "250"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Max HP +",
+							"value": "350"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 1,
+		"name": "Beast",
+		"icon": "beastmaster_greater_boar_poison.png",
+		"effect": 
+		{
+			"name": "Wild Power",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack damage +",
+							"value": "10%"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack damage +",
+							"value": "15%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack damage +",
+							"value": "20%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 2,
+		"name": "Ogre",
+		"icon": "ogre_magi_multicast.png",
+		"effect": 
+		{
+			"name": "Grow Up",
+			"rule": 0,
+			"buff": 
+			[
+				{
+					"required": 1,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Max HP +",
+							"value": "10%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 3,
+		"name": "Undead",
+		"icon": "arc_warden_spark_wraith.png",
+		"effect": 
+		{
+			"name": "Horror",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 2,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Target Armor -",
+							"value": "5"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 2,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Target Armor -",
+							"value": "7"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 4,
+		"name": "Goblin",
+		"icon": "techies_minefield_sign_swine.png",
+		"effect": 
+		{
+			"name": "Living Armor",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": true
+					},
+					"bonus":
+					[
+						{
+							"text": "Armor +",
+							"value": "15"
+						},
+						
+						{
+							"text": "HP regen +",
+							"value": "10"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Armor +",
+							"value": "15"
+						},
+						
+						{
+							"text": "HP regen +",
+							"value": "10"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 5,
+		"name": "Troll",
+		"icon": "huskar_berserkers_blood.png",
+		"effect": 
+		{
+			"name": "Voodoo Frenzy",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack speed +",
+							"value": "35"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack speed +",
+							"value": "35"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 6,
+		"name": "Elf",
+		"icon": "wisp_overcharge.png",
+		"effect": 
+		{
+			"name": "Hide",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Evasion +",
+							"value": "25%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Evasion +",
+							"value": "25%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 7,
+		"name": "Human",
+		"icon": "silencer_curse_of_the_silent.png",
+		"effect": 
+		{
+			"name": "Persuasion",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for disarm target (4s) +",
+							"value": "20%"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for disarm target (4s) +",
+							"value": "25%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for disarm target (4s) +",
+							"value": "30%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 8,
+		"name": "Demon",
+		"icon": "nevermore_dark_lord_demon.png",
+		"effect": 
+		{
+			"name": "Fel Power",
+			"rule": 3,
+			"buff": 
+			[
+				{
+					"required": 1,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Extra pure damage +",
+							"value": "50%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 9,
+		"name": "Naga",
+		"icon": "lion_voodoo_fish.png",
+		"effect": 
+		{
+			"name": "Scale Armor",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Magic resistance +",
+							"value": "20"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Magic resistance +",
+							"value": "40"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 10,
+		"name": "Dragon",
+		"icon": "lina_dragon_slave_alt1.png",
+		"effect": 
+		{
+			"name": "Battlecry",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Battle start MP +",
+							"value": "100"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 11,
+		"name": "Dwarf",
+		"icon": "sniper_take_aim.png",
+		"effect": 
+		{
+			"name": "Far Sight",
+			"rule": 0,
+			"buff": 
+			[
+				{
+					"required": 1,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack range +",
+							"value": "300"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 12,
+		"name": "Element",
+		"icon": "brewmaster_primal_split.png",
+		"effect": 
+		{
+			"name": "Elemental Resistance",
+			"rule": 1,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 1,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for stone target from melee attack (3s) +",
+							"value": "30%"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for stone target from melee attack (3s) +",
+							"value": "30%"
+						}
+					]
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,488 @@
+[
+	{
+		"id": 0,
+		"name": "Warrior",
+		"icon": "dragon_knight_dragon_tail.png",
+		"effect": 
+		{
+			"name": "Fortified Armor",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Armor +",
+							"value": "7"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Armor +",
+							"value": "8"
+						}
+					]
+				},
+				
+				{
+					"required": 9,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Armor +",
+							"value": "9"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 1,
+		"name": "Druid",
+		"icon": "lone_druid_spirit_bear_entangle.png",
+		"effect": 
+		{
+			"name": "Wild Call",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Upgrade to ** from two *",
+							"value": ""
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Upgrade to *** from two **",
+							"value": ""
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 2,
+		"name": "Mage",
+		"icon": "crystal_maiden_brilliance_aura.png",
+		"effect": 
+		{
+			"name": "Magic vunerable",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 2,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Target Magic resistance -",
+							"value": "40"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 2,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Target Magic resistance -",
+							"value": "40"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 3,
+		"name": "Hunter",
+		"icon": "drow_ranger_marksmanship.png",
+		"effect": 
+		{
+			"name": "Hunter's Talent",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack Damage +",
+							"value": "25%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Attack Damage +",
+							"value": "35%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 4,
+		"name": "Assassin",
+		"icon": "silencer_gaives_of_wisdom.png",
+		"effect": 
+		{
+			"name": "Coup De Grace",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for 3.5X damage +",
+							"value": "10%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for 4.5X damage +",
+							"value": "20%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 5,
+		"name": "Mech",
+		"icon": "rattletrap_power_cogs.png",
+		"effect": 
+		{
+			"name": "Self Heal",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "HP regen +",
+							"value": "15"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "HP regen +",
+							"value": "25"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 6,
+		"name": "Shaman",
+		"icon": "disruptor_thunder_strike.png",
+		"effect": 
+		{
+			"name": "Hex",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 2,
+						"filter": 0,
+						"random": true
+					},
+					"bonus":
+					[
+						{
+							"text": "Battle start Hex",
+							"value": ""
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 7,
+		"name": "Knight",
+		"icon": "chaos_knight_phantasm.png",
+		"effect": 
+		{
+			"name": "Holy Protect",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for shield +",
+							"value": "25%"
+						}
+					]
+				},
+				
+				{
+					"required": 4,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for shield +",
+							"value": "35%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Chance for shield +",
+							"value": "45%"
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 8,
+		"name": "Demon Hunter",
+		"icon": "terrorblade_metamorphosis_alt1.png",
+		"effect": 
+		{
+			"name": "Demon Ensnare",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 1,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Block enemy demon buff",
+							"value": ""
+						}
+					]
+				},
+				
+				{
+					"required": 2,
+					"target": 
+					{
+						"type": 1,
+						"filter": 2,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Allow to use multiple demons",
+							"value": ""
+						}
+					]
+				}
+			]
+		}
+	},
+	
+	{
+		"id": 9,
+		"name": "Warlock",
+		"icon": "warlock_upheaval.png",
+		"effect": 
+		{
+			"name": "Life Steal",
+			"rule": 2,
+			"buff": 
+			[
+				{
+					"required": 3,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Lifesteal +",
+							"value": "20%"
+						}
+					]
+				},
+				
+				{
+					"required": 6,
+					"target": 
+					{
+						"type": 1,
+						"filter": 0,
+						"random": false
+					},
+					"bonus":
+					[
+						{
+							"text": "Lifesteal +",
+							"value": "30%"
+						}
+					]
+				}
+			]
+		}
+	}
+]
